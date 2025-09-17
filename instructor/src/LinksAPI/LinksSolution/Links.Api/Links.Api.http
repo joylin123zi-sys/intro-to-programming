@@ -1,0 +1,18 @@
+@Links.Api_HostAddress = http://localhost:1337
+
+POST http://localhost:1337/links
+Content-Type: application/json
+Authorization: bearer SOME_VALUE_YOU_GET_FROM_ANOTHER_SERVICE
+
+{
+    "title": "Some Title, Some TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome TitleSome Title",
+    "description": "Some Description",
+    "href": "https://blah.com"
+}
+
+
+###
+
+GET http://localhost:1337/links
+Accept: application/json 
+
